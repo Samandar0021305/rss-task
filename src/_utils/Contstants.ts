@@ -14,7 +14,7 @@ export const NavbarList = [
 ]
 
 
-export const Card = [
+export const CardValue = [
     {
         id:1,
         text:"Производство соевого молока и продуктов из сои",

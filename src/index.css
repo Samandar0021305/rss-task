@@ -55,7 +55,7 @@ ul,li{
     margin-top: 20px;
 }
 .section-card{
-    padding-top: 20px;
+    /* padding-top: 20px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,4 +80,32 @@ ul,li{
 }
 .section-item div p {
     margin-left: 9px;
+}
+.section-btn{
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+ cursor: pointer;
+}
+
+.section-link{
+    color: white;
+    font-size: 18px;
+}
+
+.revCard{
+    width: 550px;
+    height: 400px;
+    background-color: red;
+    position: fixed;
+    z-index: 99;
+    top: 150px;
+}
+
+.cardWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
 }

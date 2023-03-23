@@ -1,6 +1,8 @@
 import {Home} from "../page/Home"
 import About from "page/About"
 import Found from "page/404"
+
+
 export const RenderRouter = [
     {
         id:1,
@@ -16,7 +18,7 @@ export const RenderRouter = [
         id:3,
         component:Found,
         path:"*",
-    },
+    }
 ]
 
 
