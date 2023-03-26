@@ -96,16 +96,60 @@ ul,li{
 
 .revCard{
     width: 550px;
-    height: 400px;
-    background-color: red;
+    height: 100vh;
+    background-color: white;
     position: fixed;
     z-index: 99;
-    top: 150px;
+    top: 0;
+    right: 0;
+    border: 1px solid rgba(100, 95, 95,0.5);
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
 }
-
+.resForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.resForm input{
+    border: none;
+    border-bottom: 1px solid #EFF1F5;
+    outline: none;
+    padding: 5px 4px;
+    width: 400px;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+}
 .cardWrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     /* flex-direction: column; */
+}
+.isForm{
+    display: none;
+}
+.revCard h2{ 
+ font-style: normal;
+ /* font-weight: 400; */
+ font-size: 30px;
+ /* line-height: 37px; */
+ margin-left: -1px;
+}
+.addCard{
+    display: none;
+}
+.form-date{
+    margin-top: 20px;
 }

@@ -20,12 +20,12 @@ export default class CardItem extends Component<any> {
         {this.props.value.map((value:CardProp) => {
             return (
                 <li className='section-item' key={value.id}>
-                    <img src={this.props.Image[value.id - 1]} alt="" />
+                    <img style={{width:"100%",height:"230px"}} src={this.props.Image[value.id - 1]} alt="" />
                     <h2>{value.text}</h2>
                     <button>{value.money}</button>
                     <div>
                         <img src={this.props.elips} alt="logo" />
-                        <p>{value.money}</p>
+                        <p>{value.map}</p>
                     </div>
                 </li>
             )
