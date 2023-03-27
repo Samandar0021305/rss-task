@@ -1,7 +1,6 @@
 {
   "name": "task-1",
   "version": "0.1.0",
-  "homepage": "https://Samandar0021305.github.io/rss-task-1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -28,8 +27,6 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

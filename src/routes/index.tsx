@@ -1,19 +1,20 @@
-import React, { Component } from 'react'
-import { RenderRouter } from './RenderRoutes'
-import {Routes,Route}  from "react-router-dom"
+import React from 'react'
+import { Routes,Route } from 'react-router-dom'
 
+import Home from "page/Home"
+import About from "page/About"
+import Found from 'page/404'
 
-
-export default class index extends Component {    
-  render() {
-    return (
-      <React.Suspense fallback={<h2>Loading...</h2>}>
-        <Routes>
-        {RenderRouter.map(value=>{
-          return <Route key={value.id} element={<value.component/>} path={value.path} />
-        })}
-        </Routes>
-      </React.Suspense>
-    )
-  }
+ const index = () => {
+  return (
+    <>
+       <Routes>
+           <Route path='/' element={<Home/>} />
+           <Route path='/' element={<About/>} />
+           <Route path='/' element={<Found/>} />
+       </Routes>
+    </>
+  )
 }
+
+export default React.memo(index)

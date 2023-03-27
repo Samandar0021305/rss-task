@@ -1,14 +1,11 @@
-import React, { Component } from 'react'
-import Header from "../components/Header"
-import Section from "../components/Section"
-
- export class Home extends Component {
-  render() {
-    return (
-      <>
-          <Header/>
-          <Section/>
-      </>
-    )
-  }
+import React from 'react'
+import Card  from "../components/Card"
+const Home = () => {
+  return (
+    <div>
+      <Card/>
+    </div>
+  )
 }
+
+export default Home

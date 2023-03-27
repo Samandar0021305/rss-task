@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-
-.container{
-    width: 1140px;
-    margin: 0 auto;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 ul,li{
     list-style: none;
 }
@@ -27,129 +32,4 @@ ul,li{
     margin-top: 20px;
     color: red;
     font-size: 35px;
-}
-.header{ 
-    padding-top: 5px;
-}
-.header-input{
-    margin-left: auto;
-    margin-right: 30px;
-    width: 300px;
-    height: 30px;
-    padding: 15px 5px;
-    outline: none;
-}
-.header-input::placeholder{
-    font-size: 14px;
-    color: coral;
-}
-.header-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.section-item{
-    border: 1px solid #EFF1F5;
-    width: 312px;
-    height: 410px;
-    margin-top: 20px;
-}
-.section-card{
-    /* padding-top: 20px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.section-item div{
-    display: flex;
-}
-.section-item h2{
-    font-size: 17px;
-    font-weight: 600;
-}
-.section-item div , h2, button{
-    margin: 10px 20px;
-}
-.section-item button{
-    background: #D63C3C;
-  border: none;
-  color: white;
-  padding: 4px;
-  cursor: pointer;
-}
-.section-item div p {
-    margin-left: 9px;
-}
-.section-btn{
-    padding: 5px 10px;
-    background-color: green;
-    color: white;
-    border: none;
- cursor: pointer;
-}
-
-.section-link{
-    color: white;
-    font-size: 18px;
-}
-
-.revCard{
-    width: 550px;
-    height: 100vh;
-    background-color: white;
-    position: fixed;
-    z-index: 99;
-    top: 0;
-    right: 0;
-    border: 1px solid rgba(100, 95, 95,0.5);
-    padding-top: 30px;
-    padding-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-items: start;
-}
-.resForm{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    /* justify-content: center; */
-    /* align-items: center; */
-}
-.resForm input{
-    border: none;
-    border-bottom: 1px solid #EFF1F5;
-    outline: none;
-    padding: 5px 4px;
-    width: 400px;
-    font-size: 15px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 150%;
-}
-.cardWrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
-}
-.isForm{
-    display: none;
-}
-.revCard h2{ 
- font-style: normal;
- /* font-weight: 400; */
- font-size: 30px;
- /* line-height: 37px; */
- margin-left: -1px;
-}
-.addCard{
-    display: none;
-}
-.form-date{
-    margin-top: 20px;
 }
