@@ -3,6 +3,7 @@ import { CardList } from '_utils/Contstants'
 import ellips from "../../assets/elips.png"
 
 export const CardItem = () => {
+  
   return (
     <ul className='flex justify-between items-center flex-wrap'>
         {CardList.map((value)=>{

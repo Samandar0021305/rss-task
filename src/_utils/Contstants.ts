@@ -20,6 +20,11 @@ export const NavbarLink = [
         text:"About",
         path:"/about"
     },
+    {
+        id:3,
+        text:"Form",
+        path:"/form"
+    },
     
 ]
 
