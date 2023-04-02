@@ -73,3 +73,27 @@ export const CardList = [
         map:"Краснодарский край"
     },
 ]
+
+
+export const Selected  = [
+    {
+        value:"select",
+        current:"select"
+    },
+    {
+        value:"Asia",
+        current:"Asia"
+    },
+    {
+        value:"Africa",
+        current:"Africa"
+    },
+    {
+        value:"Europe",
+        current:"Europe"
+    },
+    {
+        value:"America",
+        current:"America"
+    }
+]
