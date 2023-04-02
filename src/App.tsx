@@ -1,10 +1,12 @@
 import React from 'react';
 import Routes from "./routes"
+import Layout from "./Layout"
+
 function App() {
   return (
-    <div>
-      <Routes/>
-    </div>
+    <Layout>
+          <Routes/>
+    </Layout>
   );
 }
 

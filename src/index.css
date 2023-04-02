@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-
-.container{
-    width: 1140px;
-    margin: 0 auto;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 ul,li{
     list-style: none;
 }
@@ -27,57 +32,4 @@ ul,li{
     margin-top: 20px;
     color: red;
     font-size: 35px;
-}
-.header{ 
-    padding-top: 5px;
-}
-.header-input{
-    margin-left: auto;
-    margin-right: 30px;
-    width: 300px;
-    height: 30px;
-    padding: 15px 5px;
-    outline: none;
-}
-.header-input::placeholder{
-    font-size: 14px;
-    color: coral;
-}
-.header-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.section-item{
-    border: 1px solid #EFF1F5;
-    width: 312px;
-    height: 410px;
-    margin-top: 20px;
-}
-.section-card{
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.section-item div{
-    display: flex;
-}
-.section-item h2{
-    font-size: 17px;
-    font-weight: 600;
-}
-.section-item div , h2, button{
-    margin: 10px 20px;
-}
-.section-item button{
-    background: #D63C3C;
-  border: none;
-  color: white;
-  padding: 4px;
-  cursor: pointer;
-}
-.section-item div p {
-    margin-left: 9px;
 }
