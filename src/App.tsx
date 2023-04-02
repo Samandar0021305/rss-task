@@ -5,7 +5,7 @@ import Layout from "./Layout"
 function App() {
   return (
     <Layout>
-      <Routes/>
+          <Routes/>
     </Layout>
   );
 }

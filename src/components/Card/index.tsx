@@ -1,9 +1,20 @@
 import React from 'react'
 import { CardItem } from './CardItem'
- const index = () => {
+
+type CardState ={
+  Cards:{
+  map:string,
+  money:string,
+  id:number,
+  img:string,
+  text:string
+  }[] 
+}
+
+ const index = (props:CardState) => {
   return (
     <div className='container px-[40px] py-3 mx-auto'>
-        <CardItem/>
+        <CardItem current={props.Cards}/>
     </div>
   )
   }
